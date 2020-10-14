@@ -1,5 +1,6 @@
 # canchitApp
 Proyecto para la facultad
+TALLER DE PROGRAMACIÓN 2
 
 El dueño de un complejo de canchas de fútbol , nos solicita la creación de un sistema de alquiler de canchas, el sistema estará disponible también como app y podrán utilizarla los clientes .
 El complejo cuenta con:
