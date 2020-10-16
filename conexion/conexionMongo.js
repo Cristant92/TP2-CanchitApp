@@ -1,7 +1,9 @@
 const mongoClient = require('mongodb').MongoClient;
 const chalk = require('chalk');
+const dotent = require ('dotenv');
 
-const uriMongo = 'mongodb+srv://admin:admin@cluster0.uyw4y.mongodb.net/canchitAppDB?retryWrites=true&w=majority';
+const uriMongo = process.env.URIMONGO;
+console.log(uriMongo);
 
 const client = new mongoClient(uriMongo, {useUnifiedTopology: true, useNewUrlParser: true });
 
